@@ -1,0 +1,14 @@
+{
+  "name": "@manzt/tfetch",
+  "type": "module",
+  "version": "0.0.0",
+  "main": "mod.ts",
+  "author": "Trevor Manz",
+  "license": "MIT",
+  "scripts": {
+    "check": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^4.8.4"
+  }
+}
