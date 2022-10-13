@@ -6,6 +6,8 @@ WIP
 pnpm install @manzt/typed-fetch
 ```
 
+## Usage
+
 ```typescript
 import { createTypedFetch } from "@manzt/typed-fetch";
 import type { paths } from "./schema";
