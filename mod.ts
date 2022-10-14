@@ -13,7 +13,7 @@ export function createTypedFetch<Paths extends Record<string, any>>(
 }
 
 type TypedResponse<Status, Response> =
-	& Omit<Response, "status" | "json">
+	& Omit<InstanceType<typeof Response>, "status" | "json">
 	& { status: Status }
 	& (Response extends JsonContent<infer T> ? { json(): Promise<T> } : unknown);
 
