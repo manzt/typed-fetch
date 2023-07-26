@@ -1,3 +1,5 @@
+> It wasn't a crazy idea! Someone else has implemented a _way_ more feature-complete version of this project – check out [`feTS`](https://github.com/ardatan/feTS) 🎉
+
 # @manzt/typed-fetch
 
 A type-only experiment to conditionally impose strictness over the [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) based on OpenAPI Schemas
